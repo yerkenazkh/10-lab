@@ -1,0 +1,18 @@
+.login {
+    display: grid;
+    padding: 20px;
+    justify-content: center;
+    background: rgb(119, 119, 119);
+    margin: 3rem;
+}
+p {
+    margin: 0;
+    font-weight: bold;
+    font-size: 20px;
+    display: grid;
+    margin-bottom: 1rem;
+    justify-self: center;
+}
+button {
+    margin-top: 1rem;
+}

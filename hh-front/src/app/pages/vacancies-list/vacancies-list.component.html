@@ -1,0 +1,15 @@
+<div class="vac">
+    <div class="company_name">
+        {{company.name}}
+    </div>
+
+    <div class="vac_list">
+        <div *ngFor="let vacancy of vacancies">
+            <div class="vac_list__item">
+                {{vacancy.name}}
+                {{vacancy.salary}}
+                {{vacancy.description}}
+            </div>
+        </div>
+    </div>
+</div>
